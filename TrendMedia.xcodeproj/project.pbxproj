@@ -14,7 +14,7 @@
 		BF84CA8E2884DDDE00341454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF84CA8D2884DDDE00341454 /* Assets.xcassets */; };
 		BF84CA912884DDDE00341454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF84CA8F2884DDDE00341454 /* LaunchScreen.storyboard */; };
 		BF84CA992884F14700341454 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF84CA982884F14700341454 /* Home.storyboard */; };
-		BF84CA9B2884FE4200341454 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84CA9A2884FE4200341454 /* SettingTableViewController.swift */; };
+		BF84CA9B2884FE4200341454 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84CA9A2884FE4200341454 /* HomeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		BF84CA902884DDDE00341454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF84CA922884DDDE00341454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF84CA982884F14700341454 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
-		BF84CA9A2884FE4200341454 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		BF84CA9A2884FE4200341454 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				BF84CA882884DDDA00341454 /* ViewController.swift */,
 				BF84CA8A2884DDDA00341454 /* Main.storyboard */,
 				BF84CA982884F14700341454 /* Home.storyboard */,
-				BF84CA9A2884FE4200341454 /* SettingTableViewController.swift */,
+				BF84CA9A2884FE4200341454 /* HomeTableViewController.swift */,
 				BF84CA8D2884DDDE00341454 /* Assets.xcassets */,
 				BF84CA8F2884DDDE00341454 /* LaunchScreen.storyboard */,
 				BF84CA922884DDDE00341454 /* Info.plist */,
@@ -145,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF84CA9B2884FE4200341454 /* SettingTableViewController.swift in Sources */,
+				BF84CA9B2884FE4200341454 /* HomeTableViewController.swift in Sources */,
 				BF84CA892884DDDA00341454 /* ViewController.swift in Sources */,
 				BF84CA852884DDDA00341454 /* AppDelegate.swift in Sources */,
 				BF84CA872884DDDA00341454 /* SceneDelegate.swift in Sources */,

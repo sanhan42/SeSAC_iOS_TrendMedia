@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SettingTableViewController: UITableViewController {
+class HomeTableViewController: UITableViewController {
 
     var bithdayFriend = ["개동", "깝", "춘", "기털", "뽀로로","모구리", "스노기"]
     override func viewDidLoad() {
