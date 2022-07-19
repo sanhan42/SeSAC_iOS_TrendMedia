@@ -37,15 +37,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dAc-JP-gaj">
-                                <rect key="frame" x="167" y="408" width="80" height="80"/>
+                                <rect key="frame" x="157" y="388" width="100" height="120"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="GfU-9q-7sU"/>
-                                    <constraint firstAttribute="width" constant="80" id="I2Y-6y-5Oa"/>
+                                    <constraint firstAttribute="height" constant="120" id="GfU-9q-7sU"/>
+                                    <constraint firstAttribute="width" constant="100" id="I2Y-6y-5Oa"/>
                                 </constraints>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Next Page">
+                                <buttonConfiguration key="configuration" style="plain" title="Click!!" subtitle="Next Page" titleAlignment="center">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
+                                    <fontDescription key="subtitleFontDescription" type="system" pointSize="15"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="075-QS-8Be" kind="show" id="4PI-iE-aIl"/>
