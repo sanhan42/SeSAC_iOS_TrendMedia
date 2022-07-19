@@ -291,7 +291,7 @@
             </objects>
             <point key="canvasLocation" x="3412" y="38"/>
         </scene>
-        <!--수업-->
+        <!--11th 수업-->
         <scene sceneID="Gek-mO-17C">
             <objects>
                 <tableViewController id="JUD-OR-k9A" customClass="HomeTableViewController" customModule="TrendMedia" customModuleProvider="target" sceneMemberID="viewController">
@@ -317,18 +317,53 @@
                                     </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="rightDetailCell" textLabel="OuU-7h-Ebe" detailTextLabel="RJO-T0-irr" style="IBUITableViewCellStyleValue1" id="txz-72-DkW">
+                                <rect key="frame" x="0.0" y="88" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="txz-72-DkW" id="pw5-nD-myh">
+                                    <rect key="frame" x="0.0" y="0.0" width="385.5" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OuU-7h-Ebe">
+                                            <rect key="frame" x="20" y="15" width="25" height="14.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RJO-T0-irr">
+                                            <rect key="frame" x="344.5" y="15" width="33" height="14.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
                         </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="JUD-OR-k9A" id="zxg-98-NF1"/>
                             <outlet property="delegate" destination="JUD-OR-k9A" id="NMf-AA-PNh"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="수업" id="lhX-hl-puQ"/>
+                    <tabBarItem key="tabBarItem" title="11th 수업" image="book" catalog="system" id="lhX-hl-puQ"/>
                     <navigationItem key="navigationItem" id="oKe-Ez-V3S"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qod-Lt-9GQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2573.913043478261" y="37.5"/>
+        </scene>
+        <!--Intro-->
+        <scene sceneID="f8z-ou-6Sb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Intro" id="ePI-5k-TxI" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="x0z-jq-3bi"/>
+                    <navigationItem key="navigationItem" id="aZt-db-MCB"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EgL-dG-EsJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1664" y="721"/>
         </scene>
         <!--Setting-->
         <scene sceneID="Lqh-40-YjG">
@@ -338,7 +373,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b1Z-uj-lrT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2259" y="624"/>
+            <point key="canvasLocation" x="3168.115942028986" y="623.4375"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Ex7-il-Lcd">
@@ -346,12 +381,14 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Koe-Gu-nPG" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="m8u-Kq-KpP">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="JUD-OR-k9A" kind="relationship" relationship="viewControllers" id="mq0-Tu-wrf"/>
                         <segue destination="9Hw-iQ-0Ka" kind="relationship" relationship="viewControllers" id="eti-1l-Tau"/>
+                        <segue destination="ePI-5k-TxI" kind="relationship" relationship="viewControllers" id="NKO-Nt-yEo"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ltb-hn-D1P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -360,6 +397,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="book" catalog="system" width="128" height="99"/>
         <image name="folder.fill" catalog="system" width="128" height="97"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">

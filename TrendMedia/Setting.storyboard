@@ -202,11 +202,11 @@
             </objects>
             <point key="canvasLocation" x="-315.94202898550725" y="-101.11607142857143"/>
         </scene>
-        <!--과제-->
+        <!--11th 과제-->
         <scene sceneID="t5U-7L-xqh">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YRu-hh-5gr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="과제" image="plus" catalog="system" id="III-69-eUc">
+                    <tabBarItem key="tabBarItem" title="11th 과제" image="plus" catalog="system" id="III-69-eUc">
                         <color key="badgeColor" systemColor="labelColor"/>
                     </tabBarItem>
                     <toolbarItems/>

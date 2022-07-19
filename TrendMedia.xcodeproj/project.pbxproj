@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF0F80832886400F008D816A /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0F80822886400F008D816A /* Search.storyboard */; };
+		BF0F808528864041008D816A /* Trend.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0F808428864041008D816A /* Trend.storyboard */; };
+		BF0F8087288640B1008D816A /* Intro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0F8086288640B1008D816A /* Intro.storyboard */; };
+		BF0F808928864401008D816A /* TrendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F808828864401008D816A /* TrendViewController.swift */; };
+		BF0F808B28864412008D816A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F808A28864412008D816A /* SearchViewController.swift */; };
+		BF0F808D28864531008D816A /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F808C28864531008D816A /* UIViewController+Extension.swift */; };
+		BF0F808F2886478C008D816A /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F808E2886478C008D816A /* UITextField+Extension.swift */; };
+		BF0F809128864BA4008D816A /* BucketlistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F809028864BA4008D816A /* BucketlistTableViewController.swift */; };
+		BF0F809328864DAA008D816A /* BuketlistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F809228864DAA008D816A /* BuketlistTableViewCell.swift */; };
 		BF602DE428853DA600E22462 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF602DE328853DA600E22462 /* Setting.storyboard */; };
 		BF602DE628853DC600E22462 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF602DE528853DC600E22462 /* SettingTableViewController.swift */; };
 		BF84CA852884DDDA00341454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84CA842884DDDA00341454 /* AppDelegate.swift */; };
@@ -20,6 +29,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF0F80822886400F008D816A /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		BF0F808428864041008D816A /* Trend.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Trend.storyboard; sourceTree = "<group>"; };
+		BF0F8086288640B1008D816A /* Intro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Intro.storyboard; sourceTree = "<group>"; };
+		BF0F808828864401008D816A /* TrendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendViewController.swift; sourceTree = "<group>"; };
+		BF0F808A28864412008D816A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		BF0F808C28864531008D816A /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		BF0F808E2886478C008D816A /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		BF0F809028864BA4008D816A /* BucketlistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketlistTableViewController.swift; sourceTree = "<group>"; };
+		BF0F809228864DAA008D816A /* BuketlistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuketlistTableViewCell.swift; sourceTree = "<group>"; };
 		BF602DE328853DA600E22462 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 		BF602DE528853DC600E22462 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		BF84CA812884DDDA00341454 /* TrendMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrendMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,9 +87,18 @@
 				BF84CA882884DDDA00341454 /* ViewController.swift */,
 				BF84CA8A2884DDDA00341454 /* Main.storyboard */,
 				BF84CA982884F14700341454 /* Home.storyboard */,
+				BF0F8086288640B1008D816A /* Intro.storyboard */,
 				BF602DE328853DA600E22462 /* Setting.storyboard */,
+				BF0F80822886400F008D816A /* Search.storyboard */,
+				BF0F808428864041008D816A /* Trend.storyboard */,
+				BF0F809028864BA4008D816A /* BucketlistTableViewController.swift */,
+				BF0F809228864DAA008D816A /* BuketlistTableViewCell.swift */,
+				BF0F808828864401008D816A /* TrendViewController.swift */,
+				BF0F808A28864412008D816A /* SearchViewController.swift */,
+				BF0F808C28864531008D816A /* UIViewController+Extension.swift */,
 				BF602DE528853DC600E22462 /* SettingTableViewController.swift */,
 				BF84CA9A2884FE4200341454 /* HomeTableViewController.swift */,
+				BF0F808E2886478C008D816A /* UITextField+Extension.swift */,
 				BF84CA8D2884DDDE00341454 /* Assets.xcassets */,
 				BF84CA8F2884DDDE00341454 /* LaunchScreen.storyboard */,
 				BF84CA922884DDDE00341454 /* Info.plist */,
@@ -137,10 +164,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF0F808528864041008D816A /* Trend.storyboard in Resources */,
 				BF84CA912884DDDE00341454 /* LaunchScreen.storyboard in Resources */,
 				BF84CA8E2884DDDE00341454 /* Assets.xcassets in Resources */,
+				BF0F8087288640B1008D816A /* Intro.storyboard in Resources */,
 				BF602DE428853DA600E22462 /* Setting.storyboard in Resources */,
 				BF84CA8C2884DDDA00341454 /* Main.storyboard in Resources */,
+				BF0F80832886400F008D816A /* Search.storyboard in Resources */,
 				BF84CA992884F14700341454 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,10 +182,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF0F808F2886478C008D816A /* UITextField+Extension.swift in Sources */,
+				BF0F808D28864531008D816A /* UIViewController+Extension.swift in Sources */,
 				BF84CA9B2884FE4200341454 /* HomeTableViewController.swift in Sources */,
+				BF0F808B28864412008D816A /* SearchViewController.swift in Sources */,
+				BF0F809328864DAA008D816A /* BuketlistTableViewCell.swift in Sources */,
 				BF84CA892884DDDA00341454 /* ViewController.swift in Sources */,
 				BF84CA852884DDDA00341454 /* AppDelegate.swift in Sources */,
 				BF84CA872884DDDA00341454 /* SceneDelegate.swift in Sources */,
+				BF0F809128864BA4008D816A /* BucketlistTableViewController.swift in Sources */,
+				BF0F808928864401008D816A /* TrendViewController.swift in Sources */,
 				BF602DE628853DC600E22462 /* SettingTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
