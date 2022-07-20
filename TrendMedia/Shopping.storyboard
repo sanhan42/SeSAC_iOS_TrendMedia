@@ -112,7 +112,7 @@
                                     <outlet property="starImage" destination="MDd-VU-Hy9" id="eAb-TY-Zh6"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="91" id="SXt-8q-SKP">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ShoppingListTableViewCell2" rowHeight="91" id="SXt-8q-SKP" customClass="ShoppingListTableViewCell" customModule="TrendMedia" customModuleProvider="target">
                                 <rect key="frame" x="20" y="193" width="374" height="91"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SXt-8q-SKP" id="s7o-nW-Lkk">
