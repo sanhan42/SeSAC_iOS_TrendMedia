@@ -14,8 +14,8 @@ class ShoppingTableViewController: UITableViewController {
     var list = ["그립톡 구매하기", "사이다 구매", "아이패드 케이스 최저가 알아보기", "양말"]
     override func viewDidLoad() {
         super.viewDidLoad()
-        userInputTextField.backgroundColor = .systemGray5
-        userInputTextField.layer.cornerRadius = 8
+        userInputTextField.backgroundColor = .clear
+//        userInputTextField.layer.cornerRadius = 8
         userInputTextField.placeholder = "무엇을 구매하실 건가요?"
         addButton.backgroundColor = .systemGray4
     }

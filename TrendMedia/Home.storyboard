@@ -286,12 +286,13 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Item" id="9fv-FB-J2k"/>
+                    <navigationItem key="navigationItem" id="CdG-gR-SEe"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c0L-Ep-Ym4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3412" y="38"/>
+            <point key="canvasLocation" x="4321.739130434783" y="37.5"/>
         </scene>
-        <!--11th 수업-->
+        <!--Home Table View Controller-->
         <scene sceneID="Gek-mO-17C">
             <objects>
                 <tableViewController id="JUD-OR-k9A" customClass="HomeTableViewController" customModule="TrendMedia" customModuleProvider="target" sceneMemberID="viewController">
@@ -299,6 +300,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="V9g-3d-pfo">
+                            <rect key="frame" x="0.0" y="154" width="414" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="tintColor" systemColor="labelColor"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Next Page">
+                                <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <segue destination="LjN-qi-kQc" kind="show" id="omO-oM-qaz"/>
+                            </connections>
+                        </button>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="settingCell" textLabel="dn5-4E-LHa" style="IBUITableViewCellStyleDefault" id="OSr-Yf-tHK">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
@@ -347,12 +360,11 @@
                             <outlet property="delegate" destination="JUD-OR-k9A" id="NMf-AA-PNh"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="11th 수업" image="book" catalog="system" id="lhX-hl-puQ"/>
                     <navigationItem key="navigationItem" id="oKe-Ez-V3S"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qod-Lt-9GQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2573.913043478261" y="37.5"/>
+            <point key="canvasLocation" x="3484.057971014493" y="37.5"/>
         </scene>
         <!--Intro-->
         <scene sceneID="f8z-ou-6Sb">
@@ -396,7 +408,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="JUD-OR-k9A" kind="relationship" relationship="viewControllers" id="mq0-Tu-wrf"/>
+                        <segue destination="461-TH-b9e" kind="relationship" relationship="viewControllers" id="mq0-Tu-wrf"/>
                         <segue destination="9Hw-iQ-0Ka" kind="relationship" relationship="viewControllers" id="eti-1l-Tau"/>
                         <segue destination="ePI-5k-TxI" kind="relationship" relationship="viewControllers" id="NKO-Nt-yEo"/>
                         <segue destination="2Le-HX-YsV" kind="relationship" relationship="viewControllers" id="nfN-iA-QVN"/>
@@ -406,11 +418,33 @@
             </objects>
             <point key="canvasLocation" x="1663.7681159420292" y="37.5"/>
         </scene>
+        <!--11th 수업-->
+        <scene sceneID="mEZ-J9-HFT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="461-TH-b9e" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="11th 수업" image="book" catalog="system" id="lhX-hl-puQ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gdk-Sb-5No">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="JUD-OR-k9A" kind="relationship" relationship="rootViewController" id="L3o-t7-GYt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5cw-ah-tJS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2573.913043478261" y="37.5"/>
+        </scene>
     </scenes>
     <resources>
         <image name="book" catalog="system" width="128" height="99"/>
         <image name="folder.fill" catalog="system" width="128" height="97"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

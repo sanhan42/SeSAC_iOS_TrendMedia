@@ -18,6 +18,16 @@
             </objects>
             <point key="canvasLocation" x="1881.8840579710147" y="-226.33928571428569"/>
         </scene>
+        <!--SearchLectureTableViewController-->
+        <scene sceneID="TzT-ma-qbP">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Search" referencedIdentifier="SearchLectureTableViewController" id="1pk-g5-w8A" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="IMP-aT-J6T"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dD3-bx-7dz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1882" y="-54"/>
+        </scene>
         <!--Trend-->
         <scene sceneID="Hsg-gO-woT">
             <objects>
@@ -89,7 +99,9 @@
                     </tabBar>
                     <connections>
                         <segue destination="ouL-Fh-VUN" kind="relationship" relationship="viewControllers" id="Aea-HU-gEK"/>
-                        <segue destination="Yt1-fE-SKJ" kind="relationship" relationship="viewControllers" id="QjC-2t-c8L"/>
+                        <segue destination="1pk-g5-w8A" kind="relationship" relationship="viewControllers" id="j8s-TQ-fcn"/>
+                        <segue destination="Yt1-fE-SKJ" kind="relationship" relationship="viewControllers" id="noW-KT-OZo"/>
+                        <segue destination="vs4-R1-g6P" kind="relationship" relationship="viewControllers" id="MBb-yJ-shf"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="se7-Vb-Fr1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -115,6 +127,16 @@
             </objects>
             <point key="canvasLocation" x="1857.9710144927537" y="383.70535714285711"/>
         </scene>
+        <!--Recommend-->
+        <scene sceneID="hIp-Mv-NhZ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Trend" referencedIdentifier="Recommend" id="XbC-tb-aq6" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="SZt-HI-F5B"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uo2-do-2SV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2796" y="1101"/>
+        </scene>
         <!--Trand-->
         <scene sceneID="vv2-p0-2mZ">
             <objects>
@@ -135,9 +157,29 @@
             </objects>
             <point key="canvasLocation" x="-913.04347826086962" y="-54.241071428571423"/>
         </scene>
+        <!--13th 수업-->
+        <scene sceneID="mpP-Q3-7JY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vs4-R1-g6P" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="13th 수업" image="book.fill" catalog="system" id="jsj-OJ-UC7"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DnZ-I5-0Fh">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="XbC-tb-aq6" kind="relationship" relationship="rootViewController" id="LwF-Na-Duo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FEr-gY-wUN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1881" y="1101"/>
+        </scene>
     </scenes>
     <resources>
         <image name="book" catalog="system" width="128" height="99"/>
+        <image name="book.fill" catalog="system" width="128" height="95"/>
         <image name="tv.and.mediabox" catalog="system" width="128" height="89"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

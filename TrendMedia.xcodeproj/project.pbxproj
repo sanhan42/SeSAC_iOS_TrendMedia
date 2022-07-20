@@ -10,13 +10,17 @@
 		BF0F80832886400F008D816A /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0F80822886400F008D816A /* Search.storyboard */; };
 		BF0F808528864041008D816A /* Trend.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0F808428864041008D816A /* Trend.storyboard */; };
 		BF0F8087288640B1008D816A /* Intro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0F8086288640B1008D816A /* Intro.storyboard */; };
-		BF0F808928864401008D816A /* TrendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F808828864401008D816A /* TrendViewController.swift */; };
 		BF0F808D28864531008D816A /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F808C28864531008D816A /* UIViewController+Extension.swift */; };
 		BF0F808F2886478C008D816A /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F808E2886478C008D816A /* UITextField+Extension.swift */; };
 		BF0F809128864BA4008D816A /* BucketlistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F809028864BA4008D816A /* BucketlistTableViewController.swift */; };
 		BF0F809328864DAA008D816A /* BuketlistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F809228864DAA008D816A /* BuketlistTableViewCell.swift */; };
 		BF602DE428853DA600E22462 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF602DE328853DA600E22462 /* Setting.storyboard */; };
 		BF602DE628853DC600E22462 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF602DE528853DC600E22462 /* SettingTableViewController.swift */; };
+		BF73B3CD2887951C00EF1932 /* MovieInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF73B3CC2887951C00EF1932 /* MovieInfo.swift */; };
+		BF73B3CF28879AD900EF1932 /* RecommendCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF73B3CE28879AD900EF1932 /* RecommendCollectionViewController.swift */; };
+		BF73B3D128879DFA00EF1932 /* RecommendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF73B3D028879DFA00EF1932 /* RecommendCollectionViewCell.swift */; };
+		BF73B3D42887AE3100EF1932 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = BF73B3D32887AE3100EF1932 /* Kingfisher */; };
+		BF73B3D72887AE5000EF1932 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = BF73B3D62887AE5000EF1932 /* Toast */; };
 		BF84CA852884DDDA00341454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84CA842884DDDA00341454 /* AppDelegate.swift */; };
 		BF84CA872884DDDA00341454 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84CA862884DDDA00341454 /* SceneDelegate.swift */; };
 		BF84CA892884DDDA00341454 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84CA882884DDDA00341454 /* ViewController.swift */; };
@@ -28,6 +32,9 @@
 		BFA1B4E92886C62B00380458 /* Shopping.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA1B4E82886C62B00380458 /* Shopping.storyboard */; };
 		BFA1B4EB2886C94000380458 /* ShoppingListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1B4EA2886C94000380458 /* ShoppingListTableViewCell.swift */; };
 		BFA1B4ED2886C96200380458 /* ShoppingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1B4EC2886C96200380458 /* ShoppingTableViewController.swift */; };
+		BFDAE14828878733005D35DD /* SearchLectureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDAE14728878733005D35DD /* SearchLectureTableViewController.swift */; };
+		BFDAE14A28878770005D35DD /* SearchLectureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDAE14928878770005D35DD /* SearchLectureTableViewCell.swift */; };
+		BFDAE14C28878C9F005D35DD /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDAE14B28878C9F005D35DD /* Movie.swift */; };
 		BFE5BFC82886E8C5002CF0BB /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE5BFC72886E8C5002CF0BB /* SearchTableViewController.swift */; };
 		BFE5BFCA2886E9C3002CF0BB /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE5BFC92886E9C3002CF0BB /* SearchTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -36,13 +43,15 @@
 		BF0F80822886400F008D816A /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 		BF0F808428864041008D816A /* Trend.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Trend.storyboard; sourceTree = "<group>"; };
 		BF0F8086288640B1008D816A /* Intro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Intro.storyboard; sourceTree = "<group>"; };
-		BF0F808828864401008D816A /* TrendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendViewController.swift; sourceTree = "<group>"; };
 		BF0F808C28864531008D816A /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		BF0F808E2886478C008D816A /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		BF0F809028864BA4008D816A /* BucketlistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketlistTableViewController.swift; sourceTree = "<group>"; };
 		BF0F809228864DAA008D816A /* BuketlistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuketlistTableViewCell.swift; sourceTree = "<group>"; };
 		BF602DE328853DA600E22462 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 		BF602DE528853DC600E22462 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		BF73B3CC2887951C00EF1932 /* MovieInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieInfo.swift; sourceTree = "<group>"; };
+		BF73B3CE28879AD900EF1932 /* RecommendCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendCollectionViewController.swift; sourceTree = "<group>"; };
+		BF73B3D028879DFA00EF1932 /* RecommendCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendCollectionViewCell.swift; sourceTree = "<group>"; };
 		BF84CA812884DDDA00341454 /* TrendMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrendMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF84CA842884DDDA00341454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF84CA862884DDDA00341454 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +65,9 @@
 		BFA1B4E82886C62B00380458 /* Shopping.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shopping.storyboard; sourceTree = "<group>"; };
 		BFA1B4EA2886C94000380458 /* ShoppingListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListTableViewCell.swift; sourceTree = "<group>"; };
 		BFA1B4EC2886C96200380458 /* ShoppingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewController.swift; sourceTree = "<group>"; };
+		BFDAE14728878733005D35DD /* SearchLectureTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLectureTableViewController.swift; sourceTree = "<group>"; };
+		BFDAE14928878770005D35DD /* SearchLectureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLectureTableViewCell.swift; sourceTree = "<group>"; };
+		BFDAE14B28878C9F005D35DD /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		BFE5BFC72886E8C5002CF0BB /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		BFE5BFC92886E9C3002CF0BB /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF73B3D72887AE5000EF1932 /* Toast in Frameworks */,
+				BF73B3D42887AE3100EF1932 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,12 +115,17 @@
 				BFA1B4EA2886C94000380458 /* ShoppingListTableViewCell.swift */,
 				BF602DE328853DA600E22462 /* Setting.storyboard */,
 				BF0F80822886400F008D816A /* Search.storyboard */,
+				BFDAE14B28878C9F005D35DD /* Movie.swift */,
+				BF73B3CC2887951C00EF1932 /* MovieInfo.swift */,
+				BFDAE14728878733005D35DD /* SearchLectureTableViewController.swift */,
+				BFDAE14928878770005D35DD /* SearchLectureTableViewCell.swift */,
 				BFE5BFC92886E9C3002CF0BB /* SearchTableViewCell.swift */,
 				BFE5BFC72886E8C5002CF0BB /* SearchTableViewController.swift */,
 				BF0F808428864041008D816A /* Trend.storyboard */,
+				BF73B3D028879DFA00EF1932 /* RecommendCollectionViewCell.swift */,
+				BF73B3CE28879AD900EF1932 /* RecommendCollectionViewController.swift */,
 				BF0F809028864BA4008D816A /* BucketlistTableViewController.swift */,
 				BF0F809228864DAA008D816A /* BuketlistTableViewCell.swift */,
-				BF0F808828864401008D816A /* TrendViewController.swift */,
 				BF0F808C28864531008D816A /* UIViewController+Extension.swift */,
 				BF602DE528853DC600E22462 /* SettingTableViewController.swift */,
 				BF84CA9A2884FE4200341454 /* HomeTableViewController.swift */,
@@ -134,6 +153,10 @@
 			dependencies = (
 			);
 			name = TrendMedia;
+			packageProductDependencies = (
+				BF73B3D32887AE3100EF1932 /* Kingfisher */,
+				BF73B3D62887AE5000EF1932 /* Toast */,
+			);
 			productName = TrendMedia;
 			productReference = BF84CA812884DDDA00341454 /* TrendMedia.app */;
 			productType = "com.apple.product-type.application";
@@ -162,6 +185,10 @@
 				Base,
 			);
 			mainGroup = BF84CA782884DDDA00341454;
+			packageReferences = (
+				BF73B3D22887AE3100EF1932 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				BF73B3D52887AE5000EF1932 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+			);
 			productRefGroup = BF84CA822884DDDA00341454 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -195,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFDAE14A28878770005D35DD /* SearchLectureTableViewCell.swift in Sources */,
 				BF0F808F2886478C008D816A /* UITextField+Extension.swift in Sources */,
 				BF0F808D28864531008D816A /* UIViewController+Extension.swift in Sources */,
 				BF84CA9B2884FE4200341454 /* HomeTableViewController.swift in Sources */,
@@ -202,13 +230,17 @@
 				BF84CA892884DDDA00341454 /* ViewController.swift in Sources */,
 				BFA1B4ED2886C96200380458 /* ShoppingTableViewController.swift in Sources */,
 				BF84CA852884DDDA00341454 /* AppDelegate.swift in Sources */,
+				BFDAE14828878733005D35DD /* SearchLectureTableViewController.swift in Sources */,
 				BF84CA872884DDDA00341454 /* SceneDelegate.swift in Sources */,
+				BF73B3CD2887951C00EF1932 /* MovieInfo.swift in Sources */,
+				BF73B3D128879DFA00EF1932 /* RecommendCollectionViewCell.swift in Sources */,
+				BF73B3CF28879AD900EF1932 /* RecommendCollectionViewController.swift in Sources */,
 				BF0F809128864BA4008D816A /* BucketlistTableViewController.swift in Sources */,
 				BFA1B4EB2886C94000380458 /* ShoppingListTableViewCell.swift in Sources */,
 				BFE5BFC82886E8C5002CF0BB /* SearchTableViewController.swift in Sources */,
-				BF0F808928864401008D816A /* TrendViewController.swift in Sources */,
 				BF602DE628853DC600E22462 /* SettingTableViewController.swift in Sources */,
 				BFE5BFCA2886E9C3002CF0BB /* SearchTableViewCell.swift in Sources */,
+				BFDAE14C28878C9F005D35DD /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +458,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BF73B3D22887AE3100EF1932 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		BF73B3D52887AE5000EF1932 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BF73B3D32887AE3100EF1932 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF73B3D22887AE3100EF1932 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		BF73B3D62887AE5000EF1932 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF73B3D52887AE5000EF1932 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BF84CA792884DDDA00341454 /* Project object */;
 }
