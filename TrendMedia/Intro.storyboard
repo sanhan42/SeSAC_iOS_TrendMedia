@@ -108,11 +108,11 @@
             </objects>
             <point key="canvasLocation" x="984.05797101449286" y="-54.241071428571423"/>
         </scene>
-        <!--12th 수업-->
+        <!--12th,14th 수업-->
         <scene sceneID="NCb-o5-9Wd">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Yt1-fE-SKJ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="12th 수업" image="book" catalog="system" id="CQJ-d7-PQn"/>
+                    <tabBarItem key="tabBarItem" title="12th,14th 수업" image="book" catalog="system" id="CQJ-d7-PQn"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="uw4-fE-XoO">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

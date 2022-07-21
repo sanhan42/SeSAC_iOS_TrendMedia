@@ -86,10 +86,10 @@
             </objects>
             <point key="canvasLocation" x="763.768115942029" y="26.785714285714285"/>
         </scene>
-        <!--Search Lecture Table View Controller-->
+        <!--Jack Search-->
         <scene sceneID="HkQ-ev-25N">
             <objects>
-                <tableViewController id="AaG-hf-ZcV" customClass="SearchLectureTableViewController" customModule="TrendMedia" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="SearchLectureTableViewController" id="AaG-hf-ZcV" customClass="SearchLectureTableViewController" customModule="TrendMedia" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="zZ5-ix-1jI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -162,7 +162,9 @@
                             <outlet property="delegate" destination="AaG-hf-ZcV" id="rGl-wO-YPD"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Jack Search" image="list.dash" catalog="system" id="UqB-aW-GIH"/>
                     <navigationItem key="navigationItem" id="KaR-2C-VQu"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XEp-yE-hm7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -187,26 +189,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Uc-Mw-uT3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-23.188405797101453" y="27.455357142857142"/>
-        </scene>
-        <!--Jack Search-->
-        <scene sceneID="mXp-yQ-lls">
-            <objects>
-                <navigationController storyboardIdentifier="SearchLectureTableViewController" automaticallyAdjustsScrollViewInsets="NO" id="w5b-Hi-71g" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Jack Search" image="list.dash" catalog="system" id="3VC-g2-8iR"/>
-                    <toolbarItems/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="axr-IJ-apC">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="AaG-hf-ZcV" kind="relationship" relationship="rootViewController" id="WeG-mj-5eD"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7m1-iw-FmH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-23" y="706"/>
         </scene>
     </scenes>
     <resources>
