@@ -8,9 +8,8 @@
 import UIKit
 
 class BuketlistTableViewCell: UITableViewCell {
+    static let identifier = "BuketlistTableViewCell"
     @IBOutlet weak var checkboxButton: UIButton!
     @IBOutlet weak var bucketlistLabel: UILabel!
     @IBOutlet weak var dateLable: UILabel!
-    
-
 }

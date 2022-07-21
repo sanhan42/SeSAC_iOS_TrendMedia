@@ -32,6 +32,7 @@
 		BFA1B4E92886C62B00380458 /* Shopping.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA1B4E82886C62B00380458 /* Shopping.storyboard */; };
 		BFA1B4EB2886C94000380458 /* ShoppingListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1B4EA2886C94000380458 /* ShoppingListTableViewCell.swift */; };
 		BFA1B4ED2886C96200380458 /* ShoppingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1B4EC2886C96200380458 /* ShoppingTableViewController.swift */; };
+		BFB9F1912888E75500D7BEBE /* TrendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB9F1902888E75500D7BEBE /* TrendTableViewController.swift */; };
 		BFDAE14828878733005D35DD /* SearchLectureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDAE14728878733005D35DD /* SearchLectureTableViewController.swift */; };
 		BFDAE14A28878770005D35DD /* SearchLectureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDAE14928878770005D35DD /* SearchLectureTableViewCell.swift */; };
 		BFDAE14C28878C9F005D35DD /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDAE14B28878C9F005D35DD /* Movie.swift */; };
@@ -65,6 +66,7 @@
 		BFA1B4E82886C62B00380458 /* Shopping.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shopping.storyboard; sourceTree = "<group>"; };
 		BFA1B4EA2886C94000380458 /* ShoppingListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListTableViewCell.swift; sourceTree = "<group>"; };
 		BFA1B4EC2886C96200380458 /* ShoppingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewController.swift; sourceTree = "<group>"; };
+		BFB9F1902888E75500D7BEBE /* TrendTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendTableViewController.swift; sourceTree = "<group>"; };
 		BFDAE14728878733005D35DD /* SearchLectureTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLectureTableViewController.swift; sourceTree = "<group>"; };
 		BFDAE14928878770005D35DD /* SearchLectureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLectureTableViewCell.swift; sourceTree = "<group>"; };
 		BFDAE14B28878C9F005D35DD /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				BFE5BFC92886E9C3002CF0BB /* SearchTableViewCell.swift */,
 				BFE5BFC72886E8C5002CF0BB /* SearchTableViewController.swift */,
 				BF0F808428864041008D816A /* Trend.storyboard */,
+				BFB9F1902888E75500D7BEBE /* TrendTableViewController.swift */,
 				BF73B3D028879DFA00EF1932 /* RecommendCollectionViewCell.swift */,
 				BF73B3CE28879AD900EF1932 /* RecommendCollectionViewController.swift */,
 				BF0F809028864BA4008D816A /* BucketlistTableViewController.swift */,
@@ -231,6 +234,7 @@
 				BFA1B4ED2886C96200380458 /* ShoppingTableViewController.swift in Sources */,
 				BF84CA852884DDDA00341454 /* AppDelegate.swift in Sources */,
 				BFDAE14828878733005D35DD /* SearchLectureTableViewController.swift in Sources */,
+				BFB9F1912888E75500D7BEBE /* TrendTableViewController.swift in Sources */,
 				BF84CA872884DDDA00341454 /* SceneDelegate.swift in Sources */,
 				BF73B3CD2887951C00EF1932 /* MovieInfo.swift in Sources */,
 				BF73B3D128879DFA00EF1932 /* RecommendCollectionViewCell.swift in Sources */,

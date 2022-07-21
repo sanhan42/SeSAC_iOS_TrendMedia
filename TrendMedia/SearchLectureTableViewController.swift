@@ -31,4 +31,10 @@ class SearchLectureTableViewController: UITableViewController {
         // 전체 디바이스의 8분의 1
         return UIScreen.main.bounds.height / 8
     }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // print("didSelectRowAt) // 만약 테스트 해봤을 때 동작하지 않는다면, 1. TableView가 noSelection 상태 || 2. 셀 위에 전체 버튼이 겹쳐있음
+        let sb = UIStoryboard(name: "Trend", bundle: nil)
+        let vc = sb.instantiateViewController(withIdentifier: "Recommend") as! RecommendCollectionViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
