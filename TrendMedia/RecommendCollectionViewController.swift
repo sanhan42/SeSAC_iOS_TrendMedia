@@ -17,11 +17,16 @@ private let reuseIdentifier = "Cell"
  */
 
 class RecommendCollectionViewController: UICollectionViewController {
+    // 1) 값 전달 - 데이터를 받을 공간(프로퍼티) 생성 / 2)번은 SearchLectureTableViewController.swift(호출하는 곳)에 위치.
+    var movieData:JMovie?
     
     var imageURL = "https://i.ytimg.com/vi/SlnlEiXtxfE/maxresdefault.jpg"
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        // 3) 값 전달 - 프로퍼티 값을 뷰에 표현
+        title = movieData?.title == nil ? "데이터 없음" : movieData?.title
+        
         // 컬렉션뷰의 셀 크기, 셀 사이 간격 등 설정
         let layout = UICollectionViewFlowLayout()
         let spacing:CGFloat = 8

@@ -12,10 +12,13 @@ class SearchLectureTableViewCell: UITableViewCell {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var releaseLabel: UILabel!
     @IBOutlet weak var overviewLabel: UILabel!
+    
+     
     func configureCell(data: JMovie) {
         titleLabel.font = .boldSystemFont(ofSize: 15)
         titleLabel.text = data.title
-        releaseLabel.text = "\(data.releaseDate) | \(data.rate)"
+//        releaseLabel.text = "\(data.releaseDate) | \(data.rate)"
+        releaseLabel.text = data.movieDescription
         overviewLabel.text = data.overview
     }
     
